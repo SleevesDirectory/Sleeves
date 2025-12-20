@@ -2,7 +2,6 @@
 .library {
   max-width: 700px;
   margin: 0px auto;
-  padding: 0 15px;
   font-family: Arial, sans-serif;
 }
 
@@ -10,7 +9,6 @@
 .alphabet {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .letter {
@@ -22,12 +20,14 @@
 
 /* Artists under each letter */
 .artist-list {
-  margin-left: 15px; /* indent from letter */
+  margin-left: 20px; /* indent from letter */
   display: none; /* initially hidden, can be shown with JS */
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .artist {
-  margin: 5px 0;
+  margin: 5px 0 0 0;
   cursor: default;
   padding-left: 10px; /* indent under letter */
 }
