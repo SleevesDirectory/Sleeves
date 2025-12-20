@@ -22,8 +22,8 @@ body {
 
 /* Title */
 .title {
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 700;
   letter-spacing: 0.12em;
