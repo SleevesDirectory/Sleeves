@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#sleeves-title {
+  font-size: 160px;
+  letter-spacing: 0.12em;
+  margin: 20px 0 10px 0;
+}
+
+.nav {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.nav a,
+.nav span {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.nav a:hover,
+.nav span:hover {
+  text-decoration: underline;
+}
+
+/* Submit Form */
+.submit-form-container {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.submit-form-container label {
+  display: block;
+  margin-top: 10px;
+}
+
+.submit-form-container input,
+.submit-form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+}
