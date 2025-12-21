@@ -17,15 +17,16 @@ body {
   padding-top: 30px;
 }
 
-
-sleeves-title {
-  font-size: min(20vw, 160px);
+.title {
+  margin-top: 0;     
+  margin-bottom: 0;  
+  font-weight: 700;
   letter-spacing: 0.12em;
-  margin-top: 16px;
-  margin-bottom: 8px;
-  text-align: center;
+  font-size: min(20vw, 160px);
   white-space: nowrap;
+  text-align: center;
 }
+
 
 .nav {
   font-size: 18px;
