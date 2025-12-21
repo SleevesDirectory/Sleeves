@@ -8,9 +8,12 @@ body {
 }
 
 #sleeves-title {
-  font-size: 160px;
+  font-size: min(20vw, 160px);
   letter-spacing: 0.12em;
-  margin: 20px 0 10px 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .nav {
