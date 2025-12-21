@@ -3,7 +3,6 @@ library {
   margin: 0 auto;
   text-align: left;
 }
-
 .alphabet {
   display: flex;
   flex-direction: column;
