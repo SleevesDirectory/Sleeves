@@ -13,6 +13,9 @@ library {
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* Hidden by default */
