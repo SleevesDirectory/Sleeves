@@ -1,1 +1,91 @@
+/* Container for the library page */
+.library {
+  max-width: 700px;
+  margin: 0px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Alphabet letters */
+.alphabet {
+  display: flex;
+  flex-direction: column;
+  padding-left 25px
+}
+
+.letter {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+}
+
+/* Artists under each letter */
+.artist-list {
+  margin-left: 20px; /* indent from letter */
+  display: none; /* initially hidden, can be shown with JS */
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.artist {
+  margin: 5px 0 0 0;
+  cursor: default;
+  padding-left: 10px; /* indent under letter */
+}
+
+/* Links under each artist */
+.artist-links {
+  margin-left: 15px; /* further indent */
+  padding-left: 5px;
+}
+
+.artist-links a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.artist-links a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: hover effect to highlight artist */
+.artist:hover {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+/* Bottom navigation */
+.nav {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.nav span {
+  cursor: pointer;
+  color: #333;
+}
+
+.nav span:hover {
+  color: #555;
+}
+
+
+/* Initially hidden with opacity 0 and transition */
+.artist-list,
+.artist-links {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Fade-in active class */
+.fade-in {
+  display: block;
+  opacity: 1;
+}
 
