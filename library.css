@@ -24,7 +24,6 @@ library {
   opacity: 0;
   margin-left: 20px;
   transition: opacity 0.4s ease;
-  text-align: left;
   overflow: hidden;
   white-space: nowrap;
 }
