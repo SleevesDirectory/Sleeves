@@ -120,7 +120,47 @@
   <div class="nav">
      <a href="index.html">Home</a> | <span id="submit-trigger">Submission</span> | Donate
   </div>
+</div>
 
+  <!-- Submit Form (Hidden) -->
+  <div id="submit-form-container" class="submit-form-container">
+    <form id="submit-form">
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Artist Name</label>
+      <input type="text" required>
+
+      <!-- 5 link slots -->
+      <div class="links-section">
+
+        <!-- Repeat block 5 times -->
+        <div class="link-entry">
+          <label>Host</label>
+          <select>
+            <option value="">Select</option>
+            <option>YouTube</option>
+            <option>SoundCloud</option>
+            <option>Bandcamp</option>
+            <option>DistroKid</option>
+            <option>Personal Website</option>
+          </select>
+
+          <label>Link</label>
+          <input type="url">
+        </div>
+
+        <div class="link-entry"><select></select><input type="url"></div>
+        <div class="link-entry"><select></select><input type="url"></div>
+        <div class="link-entry"><select></select><input type="url"></div>
+        <div class="link-entry"><select></select><input type="url"></div>
+
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
   <script src="scripts.js"></script>
 </body>
 </html>
