@@ -45,8 +45,6 @@ library {
 .fade-in {
   display: block;
   opacity: 1;
-  font-family: Arial;
-  font-size: 150px;
   animation: fadeIn 5s;
 }
 @keyframes fadeIn {
