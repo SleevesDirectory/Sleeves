@@ -17,10 +17,6 @@ library {
   padding-left: 25%;
 }
 
-#r{
-  margin-right: 10%;
-}
-
 /* Hidden by default */
 .artist-list,
 .artist-links {
@@ -29,6 +25,7 @@ library {
   transition: opacity 0.4s ease;
   overflow: hidden;
   white-space: nowrap;
+  margin-right: 10%;
 }
 
 /* Artists */
