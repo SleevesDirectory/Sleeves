@@ -1,5 +1,4 @@
 .library {
-  max-width: 1000px;
   margin: 0 auto;
   text-align: left;
 }
@@ -13,7 +12,6 @@
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
-  text-align: left;
 }
 
 /* Hidden by default */
