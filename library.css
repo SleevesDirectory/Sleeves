@@ -19,6 +19,10 @@
 margin-right: 0;
 }
 
+.links {
+border-style: solid;
+}
+
 /* Hidden by default */
 .artist-list,
 .artist-links {
