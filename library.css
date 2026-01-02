@@ -16,7 +16,11 @@
 }
 
 #Reztones, #Rez {
-margin-right: 85%;
+margin-right: 80%;
+}
+
+#Reztones {
+margin-left: 25%;
 }
 
 /* Hidden by default */
