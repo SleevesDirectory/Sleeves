@@ -49,6 +49,12 @@
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
+   display: block;
+  animation: fadeIn 5s;
+ -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
