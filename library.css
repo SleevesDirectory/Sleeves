@@ -1,37 +1,38 @@
+/* Library container */
 .library {
   margin: 0 auto;
+  max-width: 800px;
 }
+
+/* Alphabet column */
 .alphabet {
   display: flex;
   flex-direction: column;
-  padding-left: 20%
+  padding-left: 2rem; /* replaces % padding */
 }
 
+/* Letter styling */
 .letter {
   font-size: 20px;
   font-weight: bold;
-  cursor: pointer;
-  margin-top: 10px;
+  margin-top: 1rem;
+  cursor: default;
   text-align: left;
 }
 
-#Reztones, #Rez {
-margin-right: 80%;
-}
-
-#Reztones {
-margin-left: 15%;
-}
+/* Artist block */
 .artist-entry {
   margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
+/* Artist name */
 .artist-name {
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
+/* Artist links */
 .artist-links {
   margin-left: 1.5rem;
   display: flex;
@@ -42,41 +43,17 @@ margin-left: 15%;
 .artist-links a {
   font-size: 0.9rem;
   text-decoration: none;
-
 }
 
-/* Fade-in */
+/* Fade-in animation */
 .fade-in {
-  display: block;
-  opacity: 1;
-  animation: fadeIn 5s;
- -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  to {
+    opacity: 1;
+  }
 }
 
-@-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
