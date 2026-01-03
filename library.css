@@ -45,6 +45,15 @@
   text-decoration: none;
 }
 
+.artist-list,
+.artist-links {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 /* Fade-in animation */
 .fade-in {
   opacity: 0;
