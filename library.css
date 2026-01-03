@@ -22,32 +22,27 @@ margin-right: 80%;
 #Reztones {
 margin-left: 15%;
 }
-
-/* Hidden by default */
-.artist-list,
-.artist-links {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  overflow: hidden;
-  white-space: nowrap;
+.artist-entry {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-/* Artists */
-.artist {
-  margin-top: 5px;
-  cursor: pointer;
+.artist-name {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
 }
 
 .artist-links {
-  margin-left: 20px;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .artist-links a {
-  display: block;
+  font-size: 0.9rem;
   text-decoration: none;
-  color: black;
-  font-size: 14px;
+
 }
 
 /* Fade-in */
