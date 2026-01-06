@@ -40,6 +40,10 @@
   gap: 0.25rem;
 }
 
+.artist-links, .artist-names {
+display: none;
+}
+
 .artist-links a {
   font-size: 0.9rem;
   text-decoration: none;
