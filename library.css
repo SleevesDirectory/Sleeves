@@ -42,11 +42,18 @@
 
 .artist-links, .artist-names {
 display: none;
+   opacity: 0;
+    transition: opacity 1s ease;
 }
 
 .artist-links a {
   font-size: 0.9rem;
   text-decoration: none;
+}
+
+.artist-links, .artist-names {
+display: block;
+   opacity: 1;
 }
 
 /* Fade-in animation */
