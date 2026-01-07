@@ -48,11 +48,6 @@ display: none;
   white-space: nowrap:
 }
 
-.artist-entry {
-display: block;
-   opacity: 1;
-}
-
 .artist-links a {
   font-size: 0.9rem;
   text-decoration: none;
