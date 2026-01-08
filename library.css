@@ -41,9 +41,10 @@
 }
 
 .artist-entry {
-   opacity: 0;
+  display: none;
     transition: opacity .5s ease;
-  
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .artist-links a {
