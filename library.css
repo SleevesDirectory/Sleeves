@@ -43,8 +43,7 @@
 .artist-entry {
    opacity: 0;
     transition: opacity .5s ease;
-   overflow: hidden;
-  white-space: nowrap;
+  
 }
 
 .artist-links a {
