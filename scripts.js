@@ -18,7 +18,7 @@ document.querySelectorAll('.letter').forEach(letter => {
 });
 
 // Artist toggle
-document.querySelectorAll('.artist').forEach(artist => {
+document.querySelectorAll('.artist-').forEach(artist => {
   artist.onclick = () => {
     const links = artist.querySelector('.artist-links');
     if (links) links.classList.toggle('fade-in');
