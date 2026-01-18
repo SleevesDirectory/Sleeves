@@ -40,6 +40,14 @@
   gap: 0.25rem;
 }
 
+.artist-list {
+display: none;
+  margin-left: 20px;
+}
+
+.artist-list.active {
+  display: block;
+}
 
 .artist-links a {
   font-size: 0.9rem;
