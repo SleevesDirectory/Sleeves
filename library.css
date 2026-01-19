@@ -22,7 +22,7 @@
 
 /* Artist block */
 .artist-entry {
-  margin-left: 1.5rem;
+  margin-left: 0; /* originally 1.5 rem */
   margin-bottom: 1rem;
 }
 
@@ -42,7 +42,7 @@
 
 .artist-list {
 display: none;
-  margin-left: 0px; /* originally 20px */
+  margin-left: 0; /* originally 20px */
 }
 
 .artist-list.active {
