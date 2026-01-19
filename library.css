@@ -8,7 +8,7 @@
 .alphabet {
   display: flex;
   flex-direction: column;
-  padding-left: 20%; /* replaces % padding */
+  padding-left: 2rem; /* replaces % padding */
 }
 
 /* Letter styling */
