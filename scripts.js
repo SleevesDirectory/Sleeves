@@ -18,9 +18,26 @@ document.querySelectorAll('.letter').forEach(letter => {
 });
 
 // Artist toggle
-document.querySelectorAll('.artist-').forEach(artist => {
+document.querySelectorAll('.artist').forEach(artist => {
   artist.onclick = () => {
     const links = artist.querySelector('.artist-links');
     if (links) links.classList.toggle('fade-in');
   };
+});
+
+document.querySelectorAll('.letter').forEach(letter => {
+  letter.addEventListener('click', () => {
+    const targetId = letter.dataset.target;
+    const targetList = document.getElementById(targetId);
+
+    // Close all other lists
+    document.querySelectorAll('.artist-list').forEach(list => {
+      if (list !== targetList) {
+        list.classList.remove('active');
+      }
+    });
+
+    // Toggle this one
+    targetList.classList.toggle('active');
+  });
 });
