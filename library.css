@@ -34,7 +34,7 @@
 
 /* Artist links */
 .artist-links {
-  margin-left: 1.5rem;
+  /* originally margin-left 1.5 rem */
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
