@@ -8,7 +8,7 @@
 .alphabet {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem; /* replaces % padding */
+  padding-left: 20%; /* replaces % padding */
 }
 
 /* Letter styling */
@@ -18,7 +18,6 @@
   margin-top: 1rem;
   cursor: default;
   text-align: left;
-  padding-left: 20% /*newly added */
 }
 
 /* Artist block */
