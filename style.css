@@ -22,7 +22,7 @@ body {
   margin-bottom: 0;  
   font-weight: 700;
   letter-spacing: 0.12em;
-  font-size: min(20vw, 160px);
+  font-size: min(40vw, 160px);
   white-space: nowrap;
   text-align: center;
 }
