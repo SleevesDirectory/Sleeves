@@ -22,8 +22,14 @@
 
 /* Artist block */
 .artist-entry {
-  margin-right: 100%; /* originally 1.5 rem */
   margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.artist-list.active {
+  display: block;
+  border-left: 1px solid rgba(0,0,0,0.15);
+  padding-left: 8px;
 }
 
 /* Artist name */
@@ -42,12 +48,10 @@
 
 .artist-list {
 display: none;
-  margin-left: 0; /* originally 20px */
+  margin-left: 8px; /* originally 20px */
 }
 
-.artist-list.active {
-  display: block;
-}
+
 
 .artist-links a {
   font-size: 0.9rem;
