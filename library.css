@@ -48,6 +48,9 @@
 
 .artist-list {
 display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-left: 8px; /* originally 20px */
 }
 
