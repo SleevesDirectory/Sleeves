@@ -28,9 +28,6 @@ display: none;
 
 /* Artist block */
 .artist-entry {
-   display: flex;
-   justify-content: flex-start;
-  flex-direction: column;
   margin-bottom: 1rem;
   max-width: 100%;
 }
@@ -50,8 +47,8 @@ display: none;
 /* Artist links */
 .artist-links {
   /* originally margin-left 1.5 rem */
-  /* origninally display: flex;*/
-  /* origninally flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   gap: 0.25rem;
 }
 
