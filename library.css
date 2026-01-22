@@ -22,6 +22,8 @@
 
 /* Artist block */
 .artist-entry {
+  display: flex;
+  align-content: flex-start;
   margin-bottom: 1rem;
   max-width: 100%;
 }
@@ -34,8 +36,6 @@
 
 /* Artist name */
 .artist-name {
-  display: flex;
-  justify-content: auto;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
