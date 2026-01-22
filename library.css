@@ -20,6 +20,14 @@
   text-align: left;
 }
 
+.artist-list {
+display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 8px; /* originally 20px */
+}
+
 /* Artist block */
 .artist-entry {
   margin-bottom: 1rem;
@@ -45,16 +53,6 @@
   flex-direction: column;
   gap: 0.25rem;
 }
-
-.artist-list {
-display: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 8px; /* originally 20px */
-}
-
-
 
 .artist-links a {
   font-size: 0.9rem;
