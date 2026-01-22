@@ -23,6 +23,7 @@
 /* Artist block */
 .artist-entry {
   display: flex;
+  justify-content: auto;
   margin-bottom: 1rem;
   max-width: 100%;
 }
