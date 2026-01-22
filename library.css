@@ -22,8 +22,6 @@
 
 /* Artist block */
 .artist-entry {
-  display: flex;
-  align-content: space-evenly;
   margin-bottom: 1rem;
   max-width: 100%;
 }
