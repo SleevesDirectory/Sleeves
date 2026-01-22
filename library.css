@@ -30,6 +30,7 @@ display: none;
 .artist-entry {
    display: flex;
    justify-content: flex-start;
+  flex-direction: column;
   margin-bottom: 1rem;
   max-width: 100%;
 }
