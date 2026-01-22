@@ -50,8 +50,8 @@ display: none;
 /* Artist links */
 .artist-links {
   /* originally margin-left 1.5 rem */
-  display: flex;
-  flex-direction: column;
+  /* origninally display: flex;*/
+  /* origninally flex-direction: column;*/
   gap: 0.25rem;
 }
 
