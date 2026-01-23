@@ -22,7 +22,7 @@
 
 .artist-list {
 display: none;
-  margin-left: 8px; /* originally 20px */
+  margin-left: 24px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
 }
 
 /* Artist block */
@@ -44,11 +44,12 @@ display: none;
 .artist-name {
   font-weight: bold;
   margin-bottom: 0.25rem;
+  margin-left: 0; /*aligned to artist-list*/
 }
 
 /* Artist links */
 .artist-links {
-  /* originally margin-left 1.5 rem */
+ margin-left: 16px; /* originally margin-left 1.5 rem, now 16px for links indented from artist name */
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
