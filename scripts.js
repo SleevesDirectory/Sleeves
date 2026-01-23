@@ -30,6 +30,14 @@ document.querySelectorAll('.letter').forEach(letter => {
     const targetId = letter.dataset.target;
     const targetList = document.getElementById(targetId);
 
+    if(!targetList)return;
+    const isVisible = targetList.style.display ===
+       "block";
+        targetList.style.display = isVisible ? "none":
+        "block"
+         });
+        });
+
     // Close all other lists
     document.querySelectorAll('.artist-list').forEach(list => {
       if (list !== targetList) {
