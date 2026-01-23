@@ -22,12 +22,13 @@
 
 .artist-list {
 display: none;
-  flex-direction: column;
   margin-left: 8px; /* originally 20px */
 }
 
 /* Artist block */
 .artist-entry {
+  dislay: flex;
+  justify-content: flex-start;
   margin-bottom: 1rem;
   max-width: 100%;
 }
