@@ -25,11 +25,16 @@ display: none;
   margin-left: 24px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
 }
 
+.artist-list,
+.artist-entry {
+align-items: flex-start;
+  text-align: left;
+}
+
 /* Artist block */
 .artist-entry {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   margin-bottom: 1rem;
   max-width: 100%;
 }
