@@ -22,7 +22,7 @@
 
 .artist-list {
 display: none;
-  margin-left: 24px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
+  margin-left: 8px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
 }
 
 /* Artist block */
