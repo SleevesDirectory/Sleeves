@@ -27,7 +27,7 @@ display: none;
 
 /* Artist block */
 .artist-entry {
-  dislay: flex;
+  display: flex;
   justify-content: flex-start;
   margin-bottom: 1rem;
   max-width: 100%;
