@@ -8,7 +8,6 @@
 .alphabet {
   display: flex;
   flex-direction: column;
-  padding-left: 0; /* replaces % padding */
 }
 
 /* Letter styling */
@@ -22,7 +21,7 @@
 
 .artist-list {
 display: none;
-  margin-left: 8px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
+  margin-left: 32px; /* originally 20px changed to 8px now being changed to 24px for artists indented from letters */
 }
 
 /* Artist block */
