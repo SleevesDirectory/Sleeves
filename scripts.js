@@ -46,4 +46,4 @@ document.querySelectorAll('.letter').forEach(letter => {
     // Toggle this one
     targetList.classList.toggle('active');
   });
-
+ });
