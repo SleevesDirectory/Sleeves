@@ -31,8 +31,8 @@ document.querySelectorAll('.letter').forEach(letter => {
     const targetList = document.getElementById(targetId);
     if (!targetList) return;
 
-    const isVisible = targetList.style.display === "block";
-    targetList.style.display = isVisible ? "none" : "block";
+    const isOpen = targetList.style.display === "block";
+    targetList.style.display = isOpen ? "none" : "block";
   });
 });
 
