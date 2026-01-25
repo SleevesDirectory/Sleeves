@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.submit-title {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.submit-page {
+  min-height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-form {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.submit-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+}
+
+.submit-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.submit-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
