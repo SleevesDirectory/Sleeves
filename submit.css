@@ -14,12 +14,12 @@
   text-align: center;
   margin: 2rem 0 1rem;
 }
-
 .submit-page {
-  min-height: calc(100vh - 120px);
+  flex: 1;                  /* pushes nav to bottom */
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .submit-form {
