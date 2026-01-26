@@ -68,3 +68,18 @@ button {
   margin-top: 15px;
   padding: 10px;
 }
+
+.nav {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 6px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
