@@ -83,3 +83,13 @@ button {
 .nav a:hover {
   text-decoration: underline;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-page {
+  flex: 1;
+}
