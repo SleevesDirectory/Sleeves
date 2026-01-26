@@ -47,13 +47,15 @@ display: none;
   margin-left: 0; /*aligned to artist-list*/
 }
 
-/* Artist links */
 .artist-links {
- margin-left: 16px; /* originally margin-left 1.5 rem, now 16px for links indented from artist name */
+  margin-left: 16px;      /* indent relative to artist name */
+  margin-top: 4px;        /* move links down a line */
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  flex-direction: row;    /* horizontal links */
+  gap: 12px;
+  flex-wrap: wrap;
 }
+
 
 .artist-links a {
   font-size: 0.9rem;
