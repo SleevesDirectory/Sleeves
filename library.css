@@ -48,16 +48,16 @@ display: none;
 }
 
 .artist-links {
-  margin-left: 16px;      /* indent relative to artist name */
-  margin-top: 4px;        /* move links down a line */
-  display: flex;
-  flex-direction: row;    /* horizontal links */
+  display: none;            /* 🔒 HIDDEN INITIALLY */
+  margin-left: 16px;
+  margin-top: 4px;
+
+  flex-direction: row;
   gap: 12px;
   flex-wrap: wrap;
 }
 
-
-.artist-links a {
+.artist-links {
   font-size: 0.9rem;
   text-decoration: none;
 }
