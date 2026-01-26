@@ -1,7 +1,13 @@
-body {
+  body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f6f6f6;
+
+  display: flex;
+  flex-direction: column;   /* 🔑 THIS FIXES IT */
+  min-height: 100vh;
+}
+
 }
 
 .submit-title {
