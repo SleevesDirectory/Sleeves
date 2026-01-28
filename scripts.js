@@ -36,12 +36,3 @@ document.querySelectorAll('.letter').forEach(letter => {
   });
 });
 
-// Close all other lists
-    document.querySelectorAll('.artist-list').forEach(list => {
-      if (list !== targetList) {
-        list.classList.remove('active');
-      }
-
-   // Toggle this one
-    targetList.classList.toggle('active');
-  });
