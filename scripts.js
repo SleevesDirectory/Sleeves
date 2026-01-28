@@ -35,3 +35,13 @@ document.querySelectorAll('.letter').forEach(letter => {
     targetList.style.display = isOpen ? "none" : "block";
   });
 });
+
+// Close all other lists
+    document.querySelectorAll('.artist-list').forEach(list => {
+      if (list !== targetList) {
+        list.classList.remove('active');
+      }
+
+   // Toggle this one
+    targetList.classList.toggle('active');
+  });
