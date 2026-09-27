@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+let .letter =
+  document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".letter").forEach(letter => {
     letter.addEventListener("click", () => {
       const targetId = letter.dataset.target;
