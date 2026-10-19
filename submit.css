@@ -1,8 +1,7 @@
-  body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f6f6f6;
-
   display: flex;
   flex-direction: column;   /* 🔑 THIS FIXES IT */
   min-height: 100vh;
@@ -16,6 +15,7 @@
 .submit-page {
   flex: 1;                  /* pushes nav to bottom */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -42,8 +42,8 @@
   margin-top: 4px;
 }
 
-.submit-form button {
-  width: 100%;
+button {
+  width: 25%;
   margin-top: 20px;
   padding: 10px;
   cursor: pointer;
