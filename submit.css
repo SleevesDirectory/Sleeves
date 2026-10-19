@@ -43,7 +43,7 @@ body {
 }
 
 button {
-  width: 25%;
+  width: 80px;
   margin-top: 20px;
   padding: 10px;
   cursor: pointer;
