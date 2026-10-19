@@ -45,25 +45,6 @@ body {
   text-decoration: underline;
 }
 
-.submit-form-container {
-  display: none;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.submit-form-container label {
-  display: block;
-  margin-top: 10px;
-}
-
-.submit-form-container input,
-.submit-form-container select {
-  width: 100%;
-  padding: 8px;
-  margin-top: 4px;
-}
-
 button {
   margin-top: 15px;
   padding: 10px;
