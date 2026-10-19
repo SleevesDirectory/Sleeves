@@ -1,7 +1,6 @@
-let .letter =
-  document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".letter").forEach(letter => {
-    letter.addEventListener("click", () => {
+const letter = document.querySelectorAll('.letter');
+function name() {
+letter.addEventListener("click", () => {
       const targetId = letter.dataset.target;
       const targetList = document.getElementById(targetId);
 
@@ -9,18 +8,16 @@ let .letter =
 
       const isOpen = targetList.style.display === "block";
       targetList.style.display = isOpen ? "none" : "block";
-document.querySelectorAll(".artist-name.clickable").forEach(name => {
-  name.addEventListener("click", (e) => {
-    e.stopPropagation(); // prevents letter toggle conflicts
+      document.querySelectorAll(".artist-name.clickable, .artist-links").forEach((name) => {
+        name.addEventListener("click", (e) => {
+          e.stopPropagation(); // prevents letter toggle conflicts
 
-    const links = name.nextElementSibling;
-    if (!links) return;
+          const links = name.nextElementSibling;
+          if (!links) return;
 
-    const isOpen = links.style.display === "flex";
-    links.style.display = isOpen ? "none" : "flex";
-  });
-});
-
+          const isOpen = links.style.display === "flex";
+          links.style.display = isOpen ? "none" : "flex";
+        });
+      });
     });
-  });
-});
+};
