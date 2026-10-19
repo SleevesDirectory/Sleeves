@@ -48,10 +48,8 @@ display: none;
 }
 
 .artist-links {
-  display: none;            /* 🔒 HIDDEN INITIALLY */
   margin-left: 16px;
   margin-top: 4px;
-
   flex-direction: row;
   gap: 12px;
   flex-wrap: wrap;
